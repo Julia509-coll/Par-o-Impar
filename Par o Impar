@@ -1,0 +1,9 @@
+# Pedimos al usuario que escriba un número
+# Usamos int() para convertir el texto que escribe el usuario en un número entero
+numero = int(input("Introduce un número al azar: "))
+
+# Comprobamos si el resto de dividir por 2 es igual a 0
+if numero % 2 == 0:
+    print(f"El número {numero} es PAR.")
+else:
+    print(f"El número {numero} es IMPAR.")
